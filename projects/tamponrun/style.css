@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Frijole);
+body {
+ 
+  background: url("http://www.animationsource.org/sites_content/balto/upload/fanimage/dorcia_/dorcia_262f.jpg") no-repeat;
+  background-size: cover;
+  color: #eeeeee;
+}
+
+*{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Frijole';
+  font-size: 70px;
+  color: #9a0000;
+}
+
+a{
+  font-size: 30px;
+  color: #9a0000
+}
+
+
+

@@ -1,0 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+
+/* center h1 and h2 elements */
+h1, h2 {
+  text-align:center;
+  font-family:'Amatic SC', cursive;
+}
+
+.row.footer {
+  text-align:right;
+  font-family:'Amatic SC', cursive;
+}
+body {
+  background-image: ("code/labs/hs-empire-state-css-challenge-precollege-se1-bos-072015-1"/images/empire-state.jpg)
+}
+
+

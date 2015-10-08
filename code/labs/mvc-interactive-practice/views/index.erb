@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Sinatra Example</title>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+ </head>
+ <body>
+   <h1>Welcome to our sample Sinatra application!</h1>
+   <img src="https://pbs.twimg.com/profile_images/378800000822867536/3f5a00acf72df93528b6bb7cd0a4fd0c.jpeg" style="height:200px;">
+   
+    <form method="POST" action="/results">
+      Name:<br>
+      <input type="text" name="name">
+      <br><br>
+      Miles:<br>
+      <input type="text" name="miles"><br><br>
+      <input type="submit" value= "Decide which transportation!">
+    </form>
+   
+    <form method="POST" action="/favorite_city"><br> <!--form for favorite_city -->
+      Name:<br>
+      <input type="text" name="name">
+      <br><br>
+      City:<br>
+      <input type="text" name="city"><br><br>
+      <input type="submit" value= "Decide which city!">
+    </form>
+   
+ </body>
+</html>

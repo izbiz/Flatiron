@@ -1,0 +1,28 @@
+/* import font */
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+/* style h1 elements to have 40px font size and blue color
+  example of TYPE SELECTOR */
+h1 {
+  font-size: 40px;
+  color:blue;
+}
+/* style h2 elements to be mysterious color (maroon) */
+h2 {
+  color: #800000;  
+}
+
+/* style class "info-section" to be centered */
+.info-section {
+  text-align: center; 
+}
+
+/*style id="welcome" to have different fonts */
+
+#welcome {
+  font-family: Wingdings;
+}
+/* selecting class and chaning font */
+#about-classes-and-ids {
+  font-family: 'Source Code Pro', Arial;
+}
